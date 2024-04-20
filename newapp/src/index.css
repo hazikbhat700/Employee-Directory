@@ -1,0 +1,136 @@
+/* Importing Lato font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Global styles */
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    font-family: "Lato", sans-serif; /* Set default font family to Lato */
+    color: #505962; /* Set text color */
+}
+
+/* Video styles */
+video {
+    min-width: 100%; /* Make videos responsive */
+}
+
+/* Navbar styles */
+.navbar {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+}
+
+/* Video background wrapper */
+.video-wrap {
+    width: 100%; /* Make video wrapper responsive */
+}
+
+/* Logo styles */
+img {
+    height: 3rem; /* Set height for logo */
+}
+
+/* Navbar brand logo */
+.navbar-brand fb {
+    height: 3px; /* Set height for navbar brand logo */
+}
+
+/* Video background container */
+.video-background {
+    position: relative; /* Positioning context for absolute positioned elements */
+    min-width: 100%; /* Make video background responsive */
+}
+
+/* Caption text styles */
+.caption {
+    position: absolute; /* Position the caption absolutely within the video background */
+    top: 38%; /* Position the caption vertically */
+    width: 100%; /* Make the caption full width */
+    color: white; /* Set text color to white */
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    /* Heading styles */
+    .caption h1 {
+        font-size: 1.4rem; /* Set font size for heading */
+        font-weight: 700; /* Set font weight for heading */
+        letter-spacing: .15rem; /* Set letter spacing for heading */
+        color: whitesmoke; /* Set text color for heading */
+        padding-bottom: .5rem; /* Add bottom padding */
+    }
+
+    /* Subheading styles */
+    .caption h3 {
+        font-size: 2rem; /* Set font size for subheading */
+        padding-bottom: 1.2rem; /* Add bottom padding */
+    }
+
+    /* Large button styles */
+    .btn-lg {
+        font-size: 1.1rem; /* Set font size for large buttons */
+        padding: .5rem 1rem; /* Set padding for large buttons */
+    }
+
+    /* Grid container styles */
+    .grid-container {
+        display: grid; /* Use grid layout */
+        grid-template-columns: 1fr 1fr 1fr 1fr; /* Define four equal columns */
+        border: 1px solid #dddddd; /* Add border */
+    }
+
+    /* Grid item styles */
+    .grid-item {
+        border-right: 1px solid #dddddd; /* Add right border */
+        border-bottom: 1px solid #dddddd; /* Add bottom border */
+        padding: 8px; /* Add padding */
+    }
+
+    /* Remove right border for last grid item */
+    .grid-item:last-child {
+        border-right: none; /* Remove right border */
+    }
+
+    /* Container styles */
+    .container {
+        background-color: #f7f7f7; /* Set background color */
+        padding: 20px; /* Add padding */
+        border-radius: 10px; /* Add border radius */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    }
+
+    /* Heading styles inside col-md-8 */
+    .col-md-8 h1 {
+        font-size: 1.7rem; /* Set font size for heading */
+    }
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #333; /* Set text color for headings */
+}
+
+/* Primary button styles */
+.btn-primary {
+    background-color: #007bff; /* Set background color */
+    border-color: #007bff; /* Set border color */
+}
+
+/* Primary button hover styles */
+.btn-primary:hover {
+    background-color: #0056b3; /* Set background color on hover */
+    border-color: #0056b3; /* Set border color on hover */
+}
+
+/* Table styles */
+.table {
+    background-color: #fff; /* Set background color */
+}
+
+/* Table header and cell styles */
+.table th, .table td {
+    border-color: #dee2e6; /* Set border color */
+}
+
+/* Striped table row styles */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Set background color for odd rows */
+}
