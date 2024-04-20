@@ -1,16 +1,26 @@
+# Employee-Directory
 
-![Tic Tac Toe](https://github.com/catherineisonline/tic-tac-toe/blob/main/src/assets/images/project-preview.png?raw=true)
-# Tic Tac Toe
+Employee Directory is a web application designed to manage and display a list of employees within an organization. It provides an intuitive interface for adding, editing, and deleting employee details.
+
+Application Description
+The Employee Directory application serves as a comprehensive tool for organizations to maintain and organize their employee information efficiently. With its user-friendly interface, administrators can easily manage the employee database, ensuring accurate and up-to-date records.
+
+Features
+View Employee List: Browse through a list of all employees within the organization, displaying their ID, name, and email address.
+Add New Employee: Quickly add new employees to the directory by providing their name, ID, and email address via the "Add Employee" form.
+Edit Employee Details: Update existing employee details such as name and email address directly within the table. Clicking the "Edit" button enables editing mode for the selected employee.
+Delete Employee: Remove employees from the directory with a simple click of the "Delete" button, ensuring the database remains clean and relevant.
+Search Functionality: Utilize the search bar to easily locate specific employees by name or email address, streamlining the process of finding relevant information.
 
 
-[Tic Tac Toe](https://catherineisonline.github.io/tic-tac-toe/) game, a classic game for two players where each player takes turns marking a grid of 3x3 squares with their X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. It is also known as Noughts and Crosses or Xs and Os. The game is implemented using React and CSS
+Application Usage
+Viewing Employees: Upon accessing the application, users are presented with a comprehensive list of employees currently stored in the directory.
+Adding Employees: To add a new employee, simply fill out the "Add Employee" form with the necessary details and click the "Add Employee" button.
+Editing Employees: Click the "Edit" button next to an employee's details to modify their name or email address. Upon completing the edits, click the "Save" button to update the changes.
+Deleting Employees: To remove an employee from the directory, click the "Delete" button corresponding to the employee's entry in the table.
+Searching for Employees: Use the search bar to filter employees based on their name or email address, facilitating quick and efficient retrieval of relevant information.
 
-## Game rules
 
-1. The game is played on a grid that is 3 squares by 3 squares
-2. You are X, your friend is O. Players take turns putting their marks in empty squares
-3. The first player to get 3 of their marks in a row (up, down, across, or diagonally) is the winner
-4. When all 9 squares are full, the game is over
 
 ## Getting Started with Create React App
 
